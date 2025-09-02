@@ -1,72 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Prof Lee Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
-    <script src="assets/js/js.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
 </head>
-
-<body>
-    <!-- Include this script tag or install `@tailwindplus/elements` via npm: -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1" type="module"></script> -->
-
-    <nav class="bg-white border-gray-200 dark:bg-gray-900">
-        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-            <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
-                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Home</span>
-            </a>
-            <button data-collapse-toggle="navbar-default" type="button"
-                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-                aria-controls="navbar-default" aria-expanded="false">
-                <span class="sr-only">Open main menu</span>
-                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                    viewBox="0 0 17 14">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M1 1h15M1 7h15M1 13h15" />
-                </svg>
-            </button>
-            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-                <ul
-                    class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-                    <li>
-                        <a href="#"
-                            class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
-                    </li>
-                    <li>
-                        <a href="#"
-                            class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
-                    </li>
-                </ul>
-            </div>
+<body>  
+      <section>
+    <!--navbar-->
+        <nav class = "bg-gray-300 text-gray-700 p-4">
+            <ul class="flex space-x-6 hover:[&>li]:text-pink-500">
+                <li><a href = "#">home</a></li>
+                <li><a href = "#">about</a></li>
+                <li><a href = "#">portfolio</a></li>
+                <li><a href = "#">contact</a></li>
+            </ul> 
+        </nav>
+    </section>
+    <section>
+        <!-- hero-->
+        <div class="bg-gradient-to-r from-cyan-200 via-violet-600 to-red-400 text-black-800 min-h-32 shadow-md flex items-center p-4 space-x-4">
+        <div>
+            <img class = "h-24 w-32 rounded-full shadow-md shadow-black" src="http://127.0.0.1:5500/assets/IMG/Baum.jpg">
         </div>
-    </nav>
-
-
-    <section class="bg-gray-900">
-        <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
-            <h1
-                class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-200 md:text-5xl lg:text-6xl dark:text-white">
-                Welcome to Prof. Lee website</h1>
-            <p class="mb-8 text-md font-extrabold text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Here you
-                can see my Portfolio.</p>
-            <div class="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-                <a href="#"
-                    class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-blue-400 rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
-                    Learn more
-                    <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd"
-                            d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                            clip-rule="evenodd"></path>
-                    </svg>
-                </a>
-            </div>
+            <div class = "text-2xl">Welcome Prof. Lee Website</div> 
+        <p class = "text-xs">Phd Microprocessor design</p>
         </div>
     </section>
-    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
-</body>
 
+    <section>
+<!--conten-->
+        <div class = "p-8">
+            <div class="grid grid-cols-3 gap-4">
+                <div class = "border border-gray-300 rounded shadow-md bg-cyan-200">
+                    <div class = "bg-gray-700 text-gray-100 text-center font-semibold pt-2 pb-2 rounded-tr-md rounded-tl-md shadow-md">header</div>
+                    <div class = "p-4 border border-b ">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</div>
+                    <div class = "p-4">read more...</div>
+                </div>
+
+                <div class = "border border-gray-300 rounded shadow-md bg-cyan-200">
+                    <div class = "bg-gray-700 text-gray-100 text-center font-semibold pt-2 pb-2 rounded-tr-md rounded-tl-md shadow-md">header</div>
+                    <div class = "p-4 border border-b ">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</div>
+                    <div class = "p-4">read more...</div>
+                </div>
+
+                <div class = "border border-gray-300 rounded shadow-md bg-cyan-200">
+                    <div class = "bg-gray-700 text-gray-100 text-center font-semibold pt-2 pb-2 rounded-tr-md rounded-tl-md shadow-md">header</div>
+                    <div class = "p-4 border border-b ">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</div>
+                    <div class = "p-4">read more...</div>
+                </div>
+        </div>
+        <div class = "p-8 bg-gray-700">
+            <div class="text-gray-100 text-2xl mb-8"> contact me</div>
+            <form action = "/index.html" method ="get" class ="grid space-y-8">
+                <input name = "visitorName" class = "rounded p-2 text-lg w-72" type = "text" placeholder="please write your name">
+                <textarea name = "visitorMessage" class = "rounded p-2 text-lg w-72"placeholder="please write your textmasage"></textarea>
+                <button class = "bg-blue-500 text-gray-100 w-32 rounded p-4 text-lg">send</button>
+            </form>
+        </div>
+
+    </section>
+    <section>
+        <div class = "bg-gray-300 text-gray-700 p-4 h-32">copyright Prof Lee 2025</div>
+    </section>
+</body>
 </html>
